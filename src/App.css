@@ -1,0 +1,187 @@
+
+/*
+.App {
+  text-align: center;
+  position: relative;
+  height: 3821px;
+  background: #05292E;
+  color: aliceblue;
+  margin: 0;
+}
+.frame{
+  background-image: url(https://arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/QQWVSJ6MDVGKRELX455KIABEEY.gif);
+    height: 200px;
+    background-position: 45% 33%;
+}
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+.inputText{
+  width: 50%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+*/
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+
+* {
+  font-family: sans-serif;
+  color: white;
+  box-sizing: border-box;
+  
+  
+}
+
+.banner{
+  background-image: url('https://arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/QQWVSJ6MDVGKRELX455KIABEEY.gif');
+  height: 200px;
+  background-position: 45% 33%;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Pangolin", sans-serif;
+  font-size: 3rem;
+}
+h3 {
+  font-family: "Pangolin", sans-serif;
+  font-size: 1.8rem;
+}
+.search{
+  background-color: aliceblue;
+}
+input {
+  background: #443737;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+  border: 0;
+  width: 93%;
+  height: 40px;
+  font-size: 1rem;
+  padding: 10px;
+  outline: 0;
+}
+.btn{
+  width: 7%;
+  height: 38px;
+  background-color: yellowgreen;
+  color: #05292E;
+  font-family: sans-serif;
+  border: 0;
+}
+
+/* Generic classes */
+
+.col-md-6 {
+  padding: 5px;
+  width: 100%;
+}
+.col-sm-4 {
+  padding: 5px;
+  width: 100%;
+}
+.text-center {
+  text-align: center;
+}
+
+.container {
+  padding: 15px;
+  margin: 0 auto;
+  position: relative;
+  background: #05292E;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 579px;
+  }
+  .col-sm-4 {
+    width: 33.333%;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-4 {
+    width: 33.333%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 976px;
+  }
+}
+
+
+.card {
+  display: flex;
+  margin-bottom: 20px;
+  height: 160px;
+  background: #3d3535;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+p {
+  margin: 0 0 8px 0;
+}
+
+.card img {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.info {
+  padding: 8px 0 0 10px;
+  
+}
+
+.circle {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+.red {
+  background: red;
+}
+.green {
+  background: green;
+}
+.gray {
+  background: gray;
+}
+
+.description {
+  font-size: 0.8rem;
+  margin-bottom: 3.5px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+@media (min-width: 576px) {
+  .info {
+    padding: 8px 0 0 20px;
+  }
+}
+
+.background{
+  background: #05292E;
+}
