@@ -22,7 +22,7 @@ const ResidentInfo = ({residents}) => {
                     </p>
                     <p>
 
-                        <span className='circle' ></span>
+                        <span className={residentCharacter.status == "Alive" ? "circle green": residentCharacter.status == "Dead" ? "circle red": "circle gray" } ></span>
                         {residentCharacter.status}
                     </p>
                     <p className='description'>Origin</p>

@@ -67,14 +67,16 @@ input {
   font-size: 1rem;
   padding: 10px;
   outline: 0;
+  padding: 0;
 }
 .btn{
   width: 7%;
   height: 38px;
-  background-color: yellowgreen;
+  background-color: rgb(255, 255, 255);
   color: #05292E;
   font-family: sans-serif;
   border: 0;
+  
 }
 
 /* Generic classes */
